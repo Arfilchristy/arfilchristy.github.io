@@ -1,0 +1,87 @@
+
+/*******tic-tac-toe******/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+#tic-tac-toe .disable {text-transform:uppercase; font-size:30px; font-family:Georgia, "Times New Roman", Times, serif}
+
+body {
+  /*font-family: 'Source Sans Pro'; */
+  background: bisque;
+  background-size: cover;
+}
+
+/*td {
+  #29335C
+  border:  2px solid #333;
+  height:  100px;
+  width:  100px;
+  text-align:  center;
+  vertical-align:  middle;
+  font-family:  "Comic Sans MS", cursive, sans-serif;
+  font-size:  70px;
+  cursor: pointer;
+} */
+
+.btn {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: -webkit-center;
+  background-color: white;
+  margin-top: 2px;
+  font-size: 80px;
+  padding: 29px;
+}
+
+button {
+  padding: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: red;
+}
+
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 50px;
+}
+
+
+.game {
+  background-color: transparent;
+  width: 402px;
+  height: 402px;
+  margin: 50px auto;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 201px;
+  background-color: rgba(205,133,63, 0.8);
+  position: absolute;
+  left: 54%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+} 
+
+
+#tic-tac-toe #game li {float:left; padding:0; list-style:none; text-align:center; margin-bottom:20px; color:#fff; height:60px; line-height:60px; font-size:40px; color:#ccc}
+#tic-tac-toe #game li.disable{color:#fff}
+#tic-tac-toe #game {float:left; padding:0; clear:both}
+.new_span {width:226px}
+#tic-tac-toe #reset { padding:5px 10px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:20px; clear:both; cursor:pointer; float:left; text-align:center; text-transform:uppercase; outline:none; width:204px}
+/*.input-prepend span.pre_text {width:55px}
+.input-prepend .span1{width:93px}
+.input-prepend {margin-bottom:10px}
+.clr {clear:both; height:0} */
+/*******tic-tac-toe END******/
+
+
